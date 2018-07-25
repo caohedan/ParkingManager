@@ -19,7 +19,7 @@ public class ReceiptService {
         return receipt;
     }
 
-    public List<Receipt> () {
+    public List<Receipt> getReceiptList() {
         return receiptList;
     }
 }
