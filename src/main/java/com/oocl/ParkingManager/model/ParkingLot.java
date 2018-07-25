@@ -3,6 +3,7 @@ package com.oocl.ParkingManager.model;
 public class ParkingLot {
     Long id;
     Long ParkingBoyId;
+    int size;
 
     public Long getId() {
         return id;
@@ -20,4 +21,11 @@ public class ParkingLot {
         ParkingBoyId = parkingBoyId;
     }
 
+    public int getSize() {
+        return size;
+    }
+
+    public void setSize(int size) {
+        this.size = size;
+    }
 }
