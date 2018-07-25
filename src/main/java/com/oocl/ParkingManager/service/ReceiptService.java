@@ -18,4 +18,8 @@ public class ReceiptService {
         receiptList.add(receipt);
         return receipt;
     }
+
+    public List<Receipt> () {
+        return receiptList;
+    }
 }
