@@ -9,7 +9,8 @@ import java.util.UUID;
 
 @Service
 public class ReceiptService {
-    private List<Receipt> receiptList =new ArrayList<>();
+    private List<Receipt> receiptList = new ArrayList<>();
+
     public Receipt getReceipt() {
         Receipt receipt = new Receipt();
         String uuid = UUID.randomUUID().toString();
