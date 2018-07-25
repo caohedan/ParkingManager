@@ -1,5 +1,5 @@
 "# ParkingManager" 
-```
+```java
 //1.创建停车场
 //POST    url:/ParkingLots  response:true/false
   @PostMapping(path="/ParkingLots")
@@ -8,7 +8,7 @@
          return parkingLotService.addParkingLot(parkingLot);
     }
 ```
-```
+```java
 //2.创建   ParkingBoy
 //POST    /ParkingBoys     response:true/false
  @PostMapping(path="/ParkingBoys")
@@ -17,7 +17,7 @@
         return  parkingBoyService.addParkingBoy(parkingBoy);
     }
 ```
-```
+```java
 //3.给ParkingBoy安排停车场
 //PUT  /ParkingBoys/{PBId} resquest:ParkingLot response：ParkingLot
   @PutMapping(path="/ParkingBoys/{PBId}")
